@@ -24,7 +24,10 @@ Teamviewer:         Phan mem remote destop
 
 - Doc file: Linear Algebra and Application
 
+https://github.com/mducng/Fundamental_review/blob/main/Lession_1/LinearAlgebra%20in%20image%20processing.pdf
+
 Doc phan Vector, Matrix, Cosine Simularity
 
 Neu hieu het phan tren, tim hieu them cac phan khac
 
+## Lesson 2: (du dinh vao toi t7 hoac cn)
