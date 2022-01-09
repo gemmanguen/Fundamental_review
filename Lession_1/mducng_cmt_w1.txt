@@ -1,0 +1,14 @@
+Comment for week 1 report:
+ 
++ report name --> nqhuy_w1
++ try to write report in English from next time
+
+Work for week 2:
+
++ to use Github Destop.
++ to finish all examples in "LinearAlgebra in image processing.pdf".
++ to use JupyterLab for those examples.
++ to install new library by pip (matplot), and do some basic examples with it.
+
+BRs,
+mducng
