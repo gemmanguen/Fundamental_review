@@ -14,6 +14,8 @@
 
 Notepadd++ :        Phan mem Editor co ban
 
+Visual Studio Code: Phan mem Editor
+
 Github Desktop:     Source codes - version control ( se su dung lau dai, va se hoc dan dan )
 
 Anaconda Navigator: Cho viec lap trinh python          
