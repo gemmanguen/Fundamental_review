@@ -6,9 +6,9 @@ Comment for week 1 report:
 
 Work for week 2:
 
-+ to use Github Destop. (done)
-+ to use JupyterLab for those examples. (done)
-+ to install new library by pip (matplot). (done)
++ to use Github Destop. 
++ to use JupyterLab for those examples.
++ to install new library by pip (matplot).
 	Practices:
 		Numpy:        
 		Pandas:       
