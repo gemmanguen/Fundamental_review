@@ -1,0 +1,7 @@
+A1- in ra day Fibonasi voi nterms phan tu
+
+A2- Tim hieu ve file csv, thu vien de doc file csv,  tu tim 1 file (vd: monthly-car-sales.csv) roi in ra Date shape, plot series
+
+A3-  
+
+A4-
