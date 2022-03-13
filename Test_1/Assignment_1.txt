@@ -1,7 +1,8 @@
-A1- in ra day Fibonasi voi nterms phan tu
+A1  -Write the Fib(n) function to return the n-th Fibonasi.
+    -Using above Fib() to show n numbers of Fibonasi sequence.
 
-A2- Tim hieu ve file csv, thu vien de doc file csv,  tu tim 1 file (vd: monthly-car-sales.csv) roi in ra Date shape, plot series
+A2  -Study the *csv file and its properties, and python library to read/write csv file. 
+    -Make one csv file for example (monthly-car-sales.csv), print out its properties such as data shape, plot series.
 
-A3-  
-
-A4-
+A3  -Study about Sine wave and its properties (Frequency, time, phase).
+    -Plot a sine wave by python with: (Sampling frequency = 40000Hz; Frequency = 1000Hz; phase = 0; Numbers of samples = 80)	
