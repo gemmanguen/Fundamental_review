@@ -146,7 +146,4 @@ if __name__ == "__main__":
     #tb_flip_image()
     #tb_resize_image_as_a_thumbnail()
     #tb_resize_image()
-    #tb_rotate_image()
-    
-    
-    
+    tb_rotate_image()
