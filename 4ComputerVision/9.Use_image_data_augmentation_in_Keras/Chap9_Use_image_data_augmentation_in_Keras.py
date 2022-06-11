@@ -174,26 +174,26 @@ def zoom_img(img_name):
 
 # testbench for horizontal_shift(img_name)
 def tb_horizontal_shift():
-    horizontal_shift('bird.jpg')
+    horizontal_shift('./images/bird.jpg')
 
 def tb_vertical_shift():
-    vertical_shift('bird.jpg')
+    vertical_shift('./images/bird.jpg')
     
 # testbench for horizontal_flip(img_name)
 def tb_horizontal_flip():
-    horizontal_flip('bird.jpg')
+    horizontal_flip('./images/bird.jpg')
     
 # testbench for rotate_image(img_name)
 def tb_rotate_image():
-    rotate_image('bird.jpg')
+    rotate_image('./images/bird.jpg')
     
 # testbench for bright_image(img_name)
 def tb_bright_image():
-    bright_image('bird.jpg')
+    bright_image('./images/bird.jpg')
 
 # testbench for zoom_img(img_name)
 def tb_zoom_img():
-    zoom_img('bird.jpg')
+    zoom_img('./images/bird.jpg')
 # testbench for 
 
 #------------------------------------------------------------------------------

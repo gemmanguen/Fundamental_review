@@ -107,32 +107,32 @@ def rotate_image(image_name, degree):
 #------------------------------------------------------------------------------
 # testbench for convert_images_to_numpy_array(directory_name)
 def tb_convert_images_to_numpy_array():
-    directory_name = 'Image'
+    directory_name = 'images'
     convert_images_to_numpy_array(directory_name)
 
 # testbench for load_image(image_name)
 def tb_load_image():
-    load_image('opera_house.jpg')
+    load_image('./images/opera_house.jpg')
 
 # testbench for crop_image
 def tb_crop_image():
-    crop_image('opera_house.jpg', 100, 100, 200, 300)
+    crop_image('./images/opera_house.jpg', 100, 100, 200, 300)
 
 # testbench for flip_image(image_name)
 def tb_flip_image():
-    flip_image('opera_house.jpg')
+    flip_image('./images/opera_house.jpg')
 
 # testbench for resize_image_as_a_thumbnail(image_name, width, height)
 def tb_resize_image_as_a_thumbnail():
-    resize_image_as_a_thumbnail('opera_house.jpg', 200, 200)
+    resize_image_as_a_thumbnail('./images/opera_house.jpg', 200, 200)
     
 # testbench for resize_image(image_name, width, height)
 def tb_resize_image():
-    resize_image('opera_house.jpg', 200, 200)
+    resize_image('./images/opera_house.jpg', 200, 200)
 
 # testbench for rotate_image(image_name, degree)
 def tb_rotate_image():
-    rotate_image('opera_house.jpg', 45)
+    rotate_image('./images/opera_house.jpg', 45)
 
     
 #------------------------------------------------------------------------------
@@ -140,11 +140,13 @@ def tb_rotate_image():
 #------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    tb_convert_images_to_numpy_array()
+    #tb_convert_images_to_numpy_array()
     #tb_crop_image()
     #tb_load_image()
     #tb_flip_image()
     #tb_resize_image_as_a_thumbnail()
-    #tb_resize_image()
+    tb_resize_image()
     #tb_rotate_image()
+        
 
+    

@@ -46,9 +46,9 @@ def save_image(image_name):
     # convert image to a numpy array
     img_array = img_to_array(img)
     # save the image with a new filename
-    save_img('grayscale.jpg', img_array)
+    save_img('./images/grayscale.jpg', img_array)
     # load the image to confirm it was saved correctly
-    img = load_img('grayscale.jpg')
+    img = load_img('./images/grayscale.jpg')
     print(type(img))
     print(img.format)
     print(img.mode)
@@ -67,15 +67,15 @@ def save_image(image_name):
 
 # testbench for loading_image(image_name)
 def tb_loading_image():
-    loading_image('bondi_beach.jpg')
+    loading_image('./images/bondi_beach.jpg')
 
 # testbench for convert_images_to_numpy_array(image_name)
 def tb_convert_images_to_numpy_array():
-    convert_images_to_numpy_array('bondi_beach.jpg')
+    convert_images_to_numpy_array('./images/bondi_beach.jpg')
     
 # testbench for save_image(image_name)
 def tb_save_image():
-    save_image('bondi_beach.jpg')
+    save_image('./images/bondi_beach.jpg')
 
 
 #------------------------------------------------------------------------------

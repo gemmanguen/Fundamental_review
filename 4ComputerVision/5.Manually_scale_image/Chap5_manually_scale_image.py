@@ -143,31 +143,31 @@ def local_standardization(image_name):
 
 # testbench for load_image(image_name)
 def tb_load_image():
-    load_image('sydney_bridge.jpg')
+    load_image('./images/sydney_bridge.jpg')
     
 # testbench for normalizing_pixel_values(image_name)
 def tb_normalizing_pixel_values():
-    normalizing_pixel_values('sydney_bridge.jpg')
+    normalizing_pixel_values('./images/sydney_bridge.jpg')
 
 # testbench for global_centering(image_name)
 def tb_global_centering():
-    global_centering('sydney_bridge.jpg')
+    global_centering('./images/sydney_bridge.jpg')
 
 # testbench for local_centering(image_name)
 def tb_local_centering():
-    local_centering('sydney_bridge.jpg')
+    local_centering('./images/sydney_bridge.jpg')
     
 # testbench for global_standardization(image_name)
 def tb_global_standardization():
-    global_standardization('sydney_bridge.jpg')
+    global_standardization('./images/sydney_bridge.jpg')
     
 # testbench for positive_global_standardization(image_name)
 def tb_positive_global_standardization():
-    positive_global_standardization('sydney_bridge.jpg')
+    positive_global_standardization('./images/sydney_bridge.jpg')
     
 # testbench for local_standardization(image_name)
 def tb_local_standardization():
-    local_standardization('sydney_bridge.jpg')
+    local_standardization('./images/sydney_bridge.jpg')
 
 #------------------------------------------------------------------------------
 # MAIN FUNCTIONS
